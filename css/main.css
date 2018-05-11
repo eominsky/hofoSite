@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700');
+
+/*General styling*/
+body{
+    background-color: #F9FFF9;
+    color: #453124;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    font-weight: 300;
+}
+
+h2{
+  font-weight: 400;
+}
+
+h3{
+  font-weight: 300;
+  font-style: italic;
+}
+
+p{
+
+}
+  /*Get rid of button auto styling*/
+button {
+    -webkit-appearance: none;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    background-color: inherit;
+    color: inherit;
+}
+
+button:focus {
+  outline: none;
+}
+
+  /*styling for custom icons*/
+.icon-plus, .icon-edit, .icon-x, .icon-x-bold, .icon-garbage{
+  vertical-align: middle;
+}
+
+/*Nav bar styling*/
+  /*Link styling*/
+a:link, a:visited {
+    text-decoration: none;
+    color: #453124;
+}
+
+a:hover{
+    color: #7c6e65;
+}
+
+.navbar{
+    font-size: italic;
+    background-color: rgba(249,255,249, 0.7);
+    background: -webkit-linear-gradient(rgba(249,255,249, 0), rgba(249,255,249, 0.5), rgba(249,255,249, 0.8), #F9FFF9);
+    background: -o-linear-gradient(rgba(249,255,249, 0), rgba(249,255,249, 0.5), rgba(249,255,249, 0.8), #F9FFF9);
+    background: -moz-linear-gradient(rgba(249,255,249, 0), rgba(249,255,249, 0.5), rgba(249,255,249, 0.8), #F9FFF9);
+    background: linear-gradient(rgba(249,255,249, 0), rgba(249,255,249, 0.5), rgba(249,255,249, 0.8), #F9FFF9);
+
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-left: 20px;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0px;
+}
+.navbar li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+.navibar a{
+    display: block;
+    text-align: center;
+}
+
+/**index styling**/
+.typedisplay:hover{
+    opacity: .5;
+    cursor: pointer;
+}

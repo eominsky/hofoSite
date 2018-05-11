@@ -1,0 +1,74 @@
+body{
+    text-transform: uppercase;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+
+.memberhead h3, .memberhead .new-member{
+    display: inline-block;
+}
+
+.memberhead{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.new-member{
+    font-size: 30px;
+}
+
+.edit-bio{
+    font-size: 30px;
+}
+
+p{
+    font-weight: 300;
+    text-transform: none;
+}
+
+p1{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p2{
+    font-weight: 100;
+}
+
+.member-wrapper{
+    text-align: center;
+}
+
+.members{
+    vertical-align: top;
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.bio{
+    margin left: 20px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+/*Form styling*/
+.submit {
+    margin-bottom: 30px;
+}

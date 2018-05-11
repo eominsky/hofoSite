@@ -1,0 +1,203 @@
+header h1, header .add-event{
+    display: inline-block;
+}
+
+/*Button styling*/
+.add-event{
+    font-size: 30px;
+}
+
+/*Event styling*/
+.events{
+  margin-left: 20px;
+}
+
+.seperator{
+  background-color: #7c6e65;
+  width: 100%;
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.event h2{
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.event h2, .event .edit-event, .event .edit-event{
+  display: inline-block;
+}
+
+.event .edit-event, .event .delete-event{
+  font-size: 25px;
+}
+
+.event h3{
+  font-weight: 300;
+  font-style: italic;
+  text-transform: lowercase;
+  color: #7c6e65;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.event p{
+  text-transform: none;
+  margin-bottom: 15px;
+}
+
+.form-screen input.timepicker{
+  width: 115px;
+}
+
+.form-screen input.date{
+  width: 120px;
+}
+
+.form-screen input.timepicker,
+.form-screen input.date,
+.event-form h1.time-label,
+.event-form h1.time-label {
+  display: inline;
+}
+.event-form h1.time-label,
+.event-form h1.time-label{
+  text-transform: lowercase;
+  font-size: 30px;
+}
+
+/*Datepicker styling*/
+
+/*Set datepicker’s width, position it to the center and add drop shadow*/
+.ui-datepicker {
+    width: auto;
+    height: auto;
+    margin: 5px auto 0;
+    font: .7em 'Roboto', sans-serif;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .10);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .10);
+    background-color: #fafafb;
+}
+
+/*Remove the default underline decoration from every anchor tag*/
+.ui-datepicker a {
+    text-decoration: none;
+}
+
+/*add 100% width for the table, so it will have the same maximum width as the wrapper above (i.e. widith: auto)*/
+.ui-datepicker table {
+    width: 100%;
+}
+
+/*style header*/
+.ui-datepicker-header {
+    text-transform: uppercase;
+    background-color: #fafafb;
+    font-size: 1.2em;
+    color: #555555;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+/*center the Month position.*/
+.ui-datepicker-title {
+    text-align: center;
+}
+
+/*Set up arrows*/
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    line-height: 600%;
+    overflow: hidden;
+}
+
+/*Replace the Next and Prev text with the sprite arrow images and adjust arrow position*/
+.ui-datepicker-prev {
+    float: left;
+    background-position: center 10px;
+    background-image: url('../images/datepicker/arrow_prev.png');
+    /*Images created by me (Monica Ong)*/
+}
+
+.ui-datepicker-next {
+    float: right;
+    background-position: center 10px;
+    background-image: url('../images/datepicker/arrow_next.png')
+}
+
+/*Set colors of day names*/
+.ui-datepicker thead {
+    background-color: #efefef;
+}
+
+.ui-datepicker th {
+    text-transform: uppercase;
+    font-size: .7em;
+    padding: 5px 0;
+    color: #666666;
+}
+
+/*Style dates*/
+.ui-datepicker tbody td {
+    padding: 0;
+}
+
+.ui-datepicker tbody td {
+    padding: 0;
+}
+
+/*Style default,  hover, and active state*/
+.ui-datepicker td span,
+.ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.ui-datepicker-calendar .ui-state-default {
+    background: #ededed;
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+    background: #f4f4f4;
+    color: #949496;
+}
+
+.ui-datepicker-calendar .ui-state-hover {
+    background: #f7f7f7;
+}
+
+.ui-datepicker-calendar .ui-state-active {
+    background: #666666;
+    color: #efefef;
+    position: relative;
+    margin: -1px;
+}
+
+.ui-datepicker-calendar td:first-child .ui-state-active {
+    width: 29px;
+    margin-left: 0;
+}
+
+.ui-datepicker-calendar td:last-child .ui-state-active {
+    width: 29px;
+    margin-right: 0;
+}
+
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+    height: 29px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,221 @@
+/*Form styling*/
+.pop-up{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y:scroll;
+  display: none;
+  z-index: 1;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #F9FFF9;
+}
+
+.form-screen h1{
+  margin-bottom: 30px;
+}
+
+.form-content{
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.submit:focus,
+.inputfile:focus + label,
+input:focus, textarea {
+  outline: #eceae9 auto 5px;
+}
+
+  /*Exit button*/
+.close-pop-up{
+  float: right;
+}
+
+.icon-x{
+  font-size: 30px;
+}
+
+  /*File upload styling*/
+.box {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+.inputfile + label {
+    color: #453124;
+    background-color: #a29891;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label,
+.inputfile + label:hover {
+    background-color: #c7c1bd;
+}
+
+  /*Input styling*/
+.form-screen input[type=text],
+.form-screen input[type="password"],
+input[type=email],
+textarea,
+.submit {
+    display: block;
+}
+
+.form-screen input[type=text],
+.form-screen input[type="password"],
+input[type=email],
+textarea {
+    cursor: text;
+}
+
+.form-screen input[type=text],
+.form-screen input[type="password"],
+input[type=email],
+textarea {
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color: #453124;
+    background-color: #d9d5d3;
+    font-size: 25px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.form-screen input[type=text]:last-of-type,
+.form-screen input[type="password"]:last-of-type,
+input[type=email]:last-of-type{
+  margin-bottom: 30px;
+}
+
+textarea:last-of-type{
+    margin-bottom: 10px;
+}
+
+.form-screen input[type=text]::-webkit-input-placeholder,
+.form-screen input[type="password"]::-webkit-input-placeholder,
+input[type=email]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder  {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color: #453124;
+    font-size: 1em;
+}
+.form-screen input[type=text]:-ms-input-placeholder,
+.form-screen input[type="password"]:-ms-input-placeholder,
+input[type=email]:-ms-input-placeholder,
+textarea:-ms-input-placeholder  {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #453124;
+    font-size: 1em;
+}
+
+.form-screen input[type=text]:-moz-placeholder,
+.form-screen input[type="password"]:-moz-placeholder,
+input[type=email]:-moz-placeholder,
+textarea:-moz-placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #453124;
+    font-size: 1em;
+}
+
+.form-screen input[type=text]::-moz-placeholder,
+.form-screen input[type="password"]::-moz-placeholder,
+input[type=email]::-moz-placeholder,
+textarea::-moz-placeholder  {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #453124;
+    font-size: 1em;
+}
+
+
+.error{
+  color: #b82626;
+}
+/*Submit button styling*/
+.submit:hover, .delete-files:hover {
+  background-color: #c7c1bd;
+}
+
+.submit, .delete-files {
+  background-color: #a29891;
+  color: #453124;
+}
+
+.submit{
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 7px;
+  border: none;
+}
+
+.delete-files{
+  font-size: 17px;
+  border: none;
+  display: none;
+}
+
+select{
+    padding: 30px;
+    border: none;
+    background-color: #d9d5d3;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: #453124;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.submit-sort{
+    background-color: #a29891;
+  color: #453124;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 7px;
+  border: none;
+}
+
+.submit-sort:hover{
+   background-color: #c7c1bd; 
+}

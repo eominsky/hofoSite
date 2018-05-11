@@ -1,0 +1,36 @@
+.grid {
+    margin: 1%;
+    border: 1px solid #ccc;
+    float: left;
+    width: calc(47.5%);
+    margin-bottom: 55px;
+}
+
+.grid a{
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 50%;
+}
+
+.grid .typedisplay{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+.new-type{
+    font-size: 30px;
+}
+
+header h1, header .new-type{
+    display: inline-block;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+}

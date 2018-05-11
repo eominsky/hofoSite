@@ -1,0 +1,70 @@
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4{
+    font-weight: 400;
+    color: #3A64FF;
+
+}
+
+p{
+    font-weight: 200;
+}
+
+img{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    margin-bottom: 50px;
+}
+/*header styling indivPlants*/
+header h1, header .edit-plant{
+    display:inline-block;
+}
+
+/*header styling plants*/
+.heading h1, .heading .add-plant{
+    display: inline-block;
+}
+
+.edit-plant, .add-plant{
+    font-size: 25px;
+}
+
+.submit {
+    margin-bottom: 30px;
+}
+
+.entry-wrapper{
+    text-align: center;
+}
+
+.entry{
+    vertical-align: bottom;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    display: inline-block;
+    margin: 15px;
+}
+.indivPlant{
+    vertical-align: top;
+    text-align: center;
+    width: 600px;
+    display: inline-block;
+    margin: 15px;
+    margin-left: 25%
+}
+
+.sort{
+    text-align: center;
+}
